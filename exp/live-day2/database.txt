@@ -1,0 +1,1 @@
+{"bottle":"steel","capacity":"1Litter","material":"copper","warrenty":"1 year"}
