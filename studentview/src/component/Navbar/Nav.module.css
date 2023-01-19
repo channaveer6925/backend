@@ -1,0 +1,71 @@
+.container {
+  border-bottom: 1px solid #e4e4e4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 90%;
+  height: 4.5rem;
+}
+.ajnvidyaCont {
+  display: flex;
+  align-items: center;
+  flex: 0.7;
+}
+.categaryCont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 0.04em;
+  color: #85808c;
+  cursor: pointer;
+   
+}
+.profileCont {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex: 2;
+  gap: 2rem;
+}
+.ajnavidyaTxt {
+  padding-left: 0.5rem;
+  font-size: 1.2rem;
+  letter-spacing: 4%;
+}
+.ajnavidyaTxt > span {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.profileCont > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.3rem;
+  height: 2.2rem;
+  border: 1px solid #dddddd;
+  border-radius: 50%;
+}
+.hamburger {
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+  .hamburger {
+    display: block;
+    border: 1px solid;
+    cursor: pointer;
+  }
+  .categaryCont {
+    display: none;
+  }
+  .ajnavidyaTxt {
+    display: none;
+  }
+  .profileCont {
+    gap: 1rem;
+  }
+}

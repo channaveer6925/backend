@@ -1,0 +1,153 @@
+.container {
+  border: 1px solid #e7e6e8;
+  border-radius: 15px;
+  width: 80.25rem;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 5.5rem;
+  padding: 1rem;
+}
+.profileApplyBtnCont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.leftCont {
+  display: flex;
+  align-items: center;
+  /* margin-left: 1rem; */
+}
+.joroleCompName {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 1rem;
+}
+.rightCont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 1rem;
+  gap: 1rem;
+}
+.compProfile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid #e7e6e8;
+  border-radius: 8px;
+}
+.compProfile > img {
+  width: 100%;
+}
+.jobrole {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0b0019;
+}
+.compName {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #9d99a3;
+}
+/* salary &location */
+.salaryLocation {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1.5rem;
+  display: flex;
+}
+.salaryCont {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.money {
+  display: flex;
+  align-items: center;
+  width: 2rem;
+}
+.money > img {
+  width: 100%;
+}
+.salaryLpa {
+  display: flex;
+  gap: 1rem;
+}
+.salaryTxt {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #9d99a3;
+}
+.package {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #201d24;
+}
+.badgesCon {
+  display: flex;
+  gap: 1rem;
+}
+.badges {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e7e6e8;
+  border-radius: 47px;
+  width: 8.25rem;
+  height: 2rem;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+.badges > button {
+  font-size: 1rem;
+  border: none;
+  background: none;
+}
+.jobpostedCont {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #9d99a3;
+  gap: 1rem;
+  margin-top: 1.2rem;
+}
+/* job desc */
+.jobdescCont {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.3rem;
+}
+.jobdescTxt {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #0b0019;
+}
+.desc {
+  margin-top: 1rem;
+  color: #544d5e;
+  font-size: 1rem;
+}
+.readmoreCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 1rem;
+ 
+}
+.readmoreCont > button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  text-decoration: underline;
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+}

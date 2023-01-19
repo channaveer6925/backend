@@ -1,0 +1,84 @@
+.container {
+  /* border: 1px solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10rem;
+  /* width: 40%; */
+}
+.namaskaram {
+  font-weight: 700;
+  font-size: 2.3rem;
+  /* margin-bottom: 1rem; */
+}
+.welcome {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #544d5e;
+  margin-bottom: 3rem;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.iconInput {
+  display: flex;
+  border: 1px solid;
+  width: 21.5rem;
+  /* height: 3.375rem; */
+  padding: 1rem;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  /* justify-content: space-around; */
+}
+.iconInput > input {
+  border: none;
+  outline: none;
+  padding-left: 1rem;
+}
+.iconInput1 {
+  display: flex;
+  border: 1px solid;
+  width: 21.5rem;
+  /* height: 3.375rem; */
+  padding: 1rem;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  /* justify-content: space-around; */
+}
+.iconInput1 > input {
+  border: none;
+  outline: none;
+  padding-left: 2.5rem;
+}
+.iconInput.passwordEyeIcon {
+  justify-content: space-between;
+}
+.passwordEyeIcon > input {
+  border: none;
+  outline: none;
+  padding-left: 1rem;
+}
+.loginBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginBtn > button {
+  width: 21.25rem;
+  height: 2.938rem;
+  background: #7000ff;
+  border-radius: 12px;
+  color: white;
+  border: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}

@@ -1,0 +1,96 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  margin-top: 10rem;
+}
+
+.create {
+  /* width: 100%; */
+  font-weight: 700;
+  font-size: 2.3rem;
+  line-height: 41px;
+  color: #0b0019;
+}
+.lets {
+  margin-top: 1rem;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 19px;
+  text-align: center;
+}
+.uploadphoto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px dashed #cacaca;
+  border-radius: 19px;
+  width: 252px;
+  height: 252px;
+  margin-top: 4rem;
+}
+.line1 {
+  position: absolute;
+  width: 0;
+  height: 70px;
+  border: 5px solid #888888;
+  transform: rotate(-90deg);
+  border-radius: 5px;
+}
+.line2 {
+  width: 0;
+  position: absolute;
+
+  height: 70px;
+  border: 5px solid #888888;
+  /* transform: rotate(90deg); */
+  border-radius: 5px;
+}
+.uploadBtn {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid #ceccd1;
+  border-radius: 5px;
+  width: 40%;
+  height: 40px;
+  cursor: pointer;
+}
+.uploadBtn > button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.nextBtn > button {
+  width: 20.818rem;
+  height: 2.8rem;
+  background: #7000ff;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+.already {
+  margin-top: 5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 19px;
+  letter-spacing: 0.04em;
+  text-decoration-line: underline;
+  color: #0b0019;
+}
+
+@media only screen and (max-width:480px) {
+  .create{
+    font-size: 1.4rem;
+  }  
+}

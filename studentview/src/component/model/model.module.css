@@ -1,0 +1,10 @@
+@media only screen and (max-width: 480px) {
+  .modelCont {
+    position: absolute;
+    border: 1px solid;
+    width: 200px;
+    height: 100vh;
+    background-color: aqua;
+    margin-left: 1rem;
+  }
+}
